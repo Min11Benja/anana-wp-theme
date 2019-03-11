@@ -1,0 +1,1219 @@
+/*///////////////////////////////////////////////-DESKTOP & TV -/////////////////////////////////////////////////////////*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    #hero img {
+        width: 90%;
+        position: absolute;
+        top: 30%;
+        left: 0px;
+    }
+
+    .sub_content_in {
+
+        padding-top: 25%;
+        padding-left: 20%;
+        padding-right: 10%;
+
+    }
+
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    #hero {
+        height: 650px;
+
+    }
+
+    #servicios {
+        height: 500px;
+
+    }
+
+    #service-box {
+
+        margin-left: 20%;
+        margin-top: 15%;
+
+    }
+
+    .icon-box {
+        padding-top: 20%;
+        padding-left: 0%;
+    }
+
+    #about {
+        height: 450px;
+
+    }
+
+    #about-box {
+        margin-top: 15%;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+
+
+    #numbers {
+        height: 220px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #portafolio {
+        height: 200px;
+        padding-bottom: 450px;
+    }
+
+    #portafolio img {
+        position: absolute;
+        top: 9%;
+        left: 0px;
+        width: 97%;
+    }
+
+
+    #portfolio-box {
+        padding-top: 20%;
+        padding-left: 0%;
+        padding-right: 10%;
+    }
+
+    #hero img {
+        width: 90%;
+        position: absolute;
+        top: 30%;
+        left: 0px;
+    }
+
+    .sub_content_in {
+
+        padding-top: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1280px) {
+
+    #hero img {
+        width: 90%;
+        position: absolute;
+        top: 30%;
+        left: 0px;
+    }
+
+    .sub_content_in {
+
+        padding-top: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 580px;
+
+    }
+
+    #servicios {
+        height: 400px;
+
+    }
+
+    #service-box {
+
+        margin-left: 10%;
+        margin-top: 15%;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 400px;
+
+    }
+
+    #about-box {
+        margin-top: 15%;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+
+
+    #numbers {
+        height: 200px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #portafolio {
+        height: 200px;
+        padding-bottom: 410px;
+    }
+
+    #portafolio img {
+        position: absolute;
+        top: 9%;
+        left: 0px;
+        width: 97%;
+    }
+
+    #about-service img {
+        position: absolute;
+        top: -40px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 40%;
+        font-size: 1.25rem;
+    }
+
+}
+
+/*///////////////////////////////////////////////-TABLET-/////////////////////////////////////////////////////////*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 1028px) {
+
+    .pl-center {
+        padding-left: 80px;
+
+    }
+
+
+    #about-service img {
+        position: absolute;
+        top: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #about-service img {
+        position: absolute;
+        top: 10px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 40%;
+        font-size: 1.25rem;
+    }
+
+    #hero img {
+        width: 90%;
+        position: absolute;
+        top: 30%;
+        left: 0px;
+    }
+
+    .sub_content_in {
+
+        padding-top: 25%;
+        padding-left: 5%;
+        padding-right: 10%;
+
+    }
+
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 580px;
+
+    }
+
+    #servicios {
+        height: 400px;
+
+    }
+
+    #service-box {
+
+        margin-left: 5%;
+        margin-top: 15%;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 400px;
+
+    }
+
+    #about-box {
+        margin-top: 20%;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+
+
+    #numbers {
+        height: 200px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #portafolio {
+        height: 200px;
+        padding-bottom: 380px;
+    }
+
+    #portafolio img {
+        position: absolute;
+        top: 20%;
+        left: 0px;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+
+        font-size: 20px;
+    }
+
+   
+
+
+}
+
+
+/*Ipad Pro*/
+
+@media (max-width: 835px) {
+
+    .sub_content_in {
+
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 21%;
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 880px;
+
+    }
+
+    #servicios {
+        height: 550px;
+
+    }
+
+    #service-box {
+
+        margin-left: 300px;
+        margin-top: 50px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 540px;
+    }
+
+    #about-box {
+        margin-top: 45%;
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+    #numbers {
+        height: 200px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #portafolio {
+        height: 200px;
+        padding-bottom: 330px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 15%;
+        font-size: 1.25rem;
+    }
+
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+
+        font-size: 20px;
+    }
+
+    .pl-center {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+      .owl-nome .item {
+        margin-left: 35px;
+    }
+
+
+}
+
+
+/*Kindle Fire*/
+
+@media (max-width: 801px) {
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+
+    .pl-center {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+
+        font-size: 19px;
+    }
+
+    .sub_content_in {
+
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 21%;
+
+    }
+
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 880px;
+
+    }
+
+    #servicios {
+        height: 550px;
+
+    }
+
+    #service-box {
+
+        margin-left: 300px;
+        margin-top: 50px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 540px;
+
+    }
+
+    #about-box {
+        margin-top: 45%;
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+
+
+    #numbers {
+        height: 200px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #portafolio {
+        height: 200px;
+        padding-bottom: 300px;
+    }
+
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 15%;
+        font-size: 1.25rem;
+    }
+    .owl-nome .item {
+        margin-left: 35px;
+    }
+
+}
+
+/*///////////////////////////////////////////////-MOBILE-/////////////////////////////////////////////////////////*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+
+    .pl-center {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #portafolio {
+        height: 240px;
+        padding-bottom: 300px;
+    }
+
+    .service-box {
+        text-align: center;
+        padding-top: 10%;
+        padding-left: 26%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 580px;
+
+    }
+
+    #servicios {
+        height: 500px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 700px;
+
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+    #servicios .text-box {
+
+        margin-left: 10%;
+    }
+
+    #numbers {
+        height: 800px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub_content_in {
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #about-box {
+        margin-top: 0%;
+    }
+
+
+    #about-service {
+        height: 500px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 10%;
+        font-size: 1.25rem;
+    }
+
+    .main_title h2 {
+
+        font-size: 1.8rem;
+    }
+
+    #servicios-hero {
+        height: 340px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+     .owl-nome .item {
+        margin-left: 130px;
+    }
+}
+
+/*mobile iPhone Plus - 414 px*/
+
+@media screen and (max-width: 415px) {
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+
+    #portafolio {
+        height: 280px;
+        padding-bottom: 330px;
+    }
+
+    .service-box {
+        text-align: center;
+        padding-top: 10%;
+        padding-left: 26%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 550px;
+
+    }
+
+    #servicios {
+        height: 500px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 680px;
+
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+    #numbers {
+        height: 800px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub_content_in {
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .img-box {
+        margin-top: 4%;
+    }
+
+    #about-box {
+        margin-top: 0%;
+    }
+
+    #about-service {
+        height: 500px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 10%;
+        font-size: 1.25rem;
+    }
+
+    #servicios-hero {
+        height: 340px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    .pl-center {
+        padding-left: 40px;
+    }
+    .owl-nome .item {
+        margin-left: 100px;
+    }
+}
+
+/*mobile -iPhone 6/7/8 - 375 px*/
+
+@media screen and (max-width: 376px) {
+    #portafolio {
+        height: 280px;
+        padding-bottom: 350px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 550px;
+
+    }
+
+    #servicios {
+        height: 500px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 640px;
+
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+    }
+
+    #numbers {
+        height: 800px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about-service {
+        height: 500px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 10%;
+        font-size: 1.25rem;
+    }
+
+    #servicios-hero {
+        height: 340px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    .pl-center {
+        padding-left: 40px;
+    }
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+     .owl-nome .item {
+        margin-left: 80px;
+    }
+    
+}
+
+/*mobile -samsung Galaxy s9/s9+ - 361 px*/
+
+@media screen and (max-width: 361px) {
+    #about-box {
+        margin-top: 0%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero {
+        height: 600px;
+
+    }
+
+    #servicios {
+        height: 560px;
+
+    }
+
+    .icon-box {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #about {
+        height: 640px;
+
+    }
+
+    #about img {
+        width: 80%;
+    }
+
+    .text-box {
+
+        margin-top: 0%;
+        margin-right: 10%;
+    }
+
+    #numbers {
+        height: 800px;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    footer img {
+        max-width: 90px;
+        max-height: auto;
+        /*center image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portafolio {
+        height: 310px;
+    }
+
+    #about-service {
+        height: 500px;
+    }
+
+    #about-service-list {
+        padding-top: 10px;
+        padding-left: 10%;
+        font-size: 1.25rem;
+    }
+
+    #servicios-hero {
+        height: 340px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    .pl-center {
+        padding-left: 50px;
+    }
+
+    blockquote.nk-blockquote-style-1 > p {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .owl-nome .item {
+        margin-left: 60px;
+    }
+
+}
