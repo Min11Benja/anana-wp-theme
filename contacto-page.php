@@ -68,7 +68,7 @@ get_header();
 			</p>
 			<div>
 				<div id="message-contact"></div>
-				<form method="post" action="assets/contact.php" id="contactform">
+				<form method="post" action="<?php bloginfo('template_directory');?>/assets/contact.php" id="contactform">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
