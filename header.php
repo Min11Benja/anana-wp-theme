@@ -21,6 +21,25 @@
     <meta name="description" content="Anana, agencia marketing digital, branding, redes sociales, relaciones publicas, diseño grafico, inbound marketing">
     <meta name="author" content="min11benja">
 
+    <!--SEO Meta tags-->
+    <meta name="keywords" content="anana, agencia marketing slp, marketing digital slp, paginas web slp, redes sociales slp, san luis potosi" />
+    
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Brand Name | Major Product Category - Minor Product Category - Name of Product -->
+
+    <!--Primary Keyword - Secondary Keyword | Brand Name 8-foot Green Widgets - Widgets & Tools | primary keyword-->
+    
+    <title>Ananá | Agencia Marketing Digital | San Luis Potosí</title>
+    <meta name="description" content="Pagina inicio para Ananá, agencia de marketing digital en San Luis Potosí México">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="location" content="San Luis Potosi Mexico" />
+    <meta name="rating" content="General" />
+    <meta name="url" content="http://www.anana.mx/" />
+    <meta name="content-language" content="Spanish" />
+
     <!-- Favicons-->
     <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('template_directory');?>/assets/img/anana-fav-icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('template_directory');?>/assets/img/anana-fav-icons/apple-icon-60x60.png">
