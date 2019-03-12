@@ -24,6 +24,7 @@ get_header();
 						especialistas en <strong>comunicación</strong>, imagen y
 						mercadotecnia.</p>
 					<div class="float-left pt10">
+					
 						<a href="#servicios" data-scroll class="btn btn-outline-secondary mb5 btn-rounded">ACERCA DE NOSOTROS</a>
 
 					</div>
@@ -31,7 +32,7 @@ get_header();
 				</div>
 			</div>
 			<div class="col-lg-6 img-box">
-				<img src="img/home-laptop-01.png" alt="">
+				<img src="<?php bloginfo('template_directory');?>/assets/img/home-laptop-01.png" alt="imagen laptop anana inicio">
 			</div>
 
 		</div>
@@ -51,9 +52,9 @@ get_header();
 						<p class="hidden-md-down text-white">Son tus sueños materializados por las manos
 							especialistas en comunicación, imagen y
 							mercadotecnia.</p>
-
+						<!--change page link id servicios-->
 					   <div class="float-left pt10">
-							<a href="servicios.html" class="btn btn-outline-secondary mb5 btn-rounded">CONOCER MÁS</a>
+							<a href="<?php echo get_page_link(24); ?>" class="btn btn-outline-secondary mb5 btn-rounded">CONOCER MÁS</a>
 						</div>
 				</div>
 			</div><!--.col-lg-6 .col-xs-12-->
@@ -63,19 +64,19 @@ get_header();
 					
 					<div class="row">
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/redes-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/redes-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
 							<br>
 							<span>GESTIÓN DE <br>REDES SOCIALES</span>
 						</div>
 
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/redes-360-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/redes-360-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
 							<br>
 							<span>MARKETING <br>360º</span>
 						</div>
 
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/posicionamiento-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/posicionamiento-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
 							<br>
 							<span>POSICIONAMIENTO <br>DE MARCA</span>
 						</div>
@@ -84,19 +85,19 @@ get_header();
 					<div class="row">
 						
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/web-icon-01.png" alt="">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/web-icon-01.png" alt="">
 							<br>
 							<span>ELABORACIÓN DE PAGINAS WEB</span>
 						</div>
 
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/diseno-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/diseno-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
 							<br>
 							<span>IDENTIDAD <br>CORPORATIVA</span>
 						</div>
 
 						<div class="col col-md-4 col-lg-4 pb5">
-							<img src="img/inbound-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
+							<img src="<?php bloginfo('template_directory');?>/assets/img/inbound-icon-01.png" alt="" class="img-responsive" style="margin: 0 auto;">
 							<br>
 							<span>INBOUND <br>MARKETING</span>
 						</div>
@@ -117,7 +118,7 @@ get_header();
 
 			<div class="col-lg-3 col-md-6 col-sm-12">
 				<div class="d-flex justify-content-end">
-					<img src="img/about-bg-icon-01.png" alt="">
+					<img src="<?php bloginfo('template_directory');?>/assets/img/about-bg-icon-01.png" alt="">
 				</div>
 
 			</div>
@@ -128,7 +129,8 @@ get_header();
 					<h2>QUIENES <strong>SOMOS</strong></h2>
 					<p>Somos la agencia externa de marketing que quiere ayudarte a encontrar la esencia y valor de tu negocio para comunicarlo por medio de experiencias y comunicación estratégica.
 					</p>
-					<a href="acercade.html" class="animated_link">Conoce al equipo</a>
+					<!--change page link id about-->
+					<a href="<?php echo get_page_link(18); ?>" class="animated_link">Conoce al equipo</a>
 				</div>
 
 			</div>
@@ -145,7 +147,7 @@ get_header();
 		<div class="row">
 			<div class="col-sm-3">
 				<div class="container__counter text-center mt-2">
-					<div class="icon"><img src="img/cofe-icon-01.png" alt="" role="0"></div>
+					<div class="icon"><img src="<?php bloginfo('template_directory');?>/assets/img/cofe-icon-01.png" alt="" role="0"></div>
 					<div class="counter">
 						<div class="count" data-number="250">0</div>
 					</div>
@@ -156,7 +158,7 @@ get_header();
 			</div>
 			<div class="col-sm-3">
 				<div class="container__counter text-center mt-2">
-					<div class="icon"><img src="img/proyect-icon-01.png" alt="" role="1"></div>
+					<div class="icon"><img src="<?php bloginfo('template_directory');?>/assets/img/proyect-icon-01.png" alt="" role="1"></div>
 					<div class="counter">
 						<div class="count" data-number="75">0</div>
 					</div>
@@ -167,7 +169,7 @@ get_header();
 			</div>
 			<div class="col-sm-3">
 				<div class="container__counter text-center mt-2">
-					<div class="icon"><img src="img/calendar-icon-01.png" alt="" role="2"></div>
+					<div class="icon"><img src="<?php bloginfo('template_directory');?>/assets/img/calendar-icon-01.png" alt="" role="2"></div>
 					<div class="counter">
 						<div class="count" data-number="508">0</div>
 					</div>
@@ -178,7 +180,7 @@ get_header();
 			</div>
 			<div class="col-sm-3">
 				<div class="container__counter text-center mt-2">
-					<div class="icon"><img src="img/client-icon-01.png" alt="" role="3"></div>
+					<div class="icon"><img src="<?php bloginfo('template_directory');?>/assets/img/client-icon-01.png" alt="" role="3"></div>
 					<div class="counter">
 						<div class="count" data-number="32">0</div>
 					</div>
@@ -199,7 +201,7 @@ get_header();
 		<div class="row">
 
 			<div class="col-lg-6 hidden-md-down">
-				<img src="img/phone-mockup.png" alt="">
+				<img src="<?php bloginfo('template_directory');?>/assets/img/phone-mockup.png" alt="">
 			</div>
 
 
@@ -211,7 +213,8 @@ get_header();
 						Somos orgullosos colaboradores de proyectos como:
 					</p>
 					 <div class="float-left">
-						<a href="portafolio-cat.html" class="btn btn-outline-secondary mb5 btn-rounded">VER PORTAFOLIO</a>
+					 <!--change page id portafolio-->
+						<a href="<?php echo get_page_link(20); ?>" class="btn btn-outline-secondary mb5 btn-rounded">VER PORTAFOLIO</a>
 
 					</div>
 
