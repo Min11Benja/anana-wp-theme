@@ -124,8 +124,8 @@ get_header();
 							 <a href="https://s3.amazonaws.com/anana-temp-site/asg-tek-temp-site/index.html" class="nk-portfolio-item-link" target="_blank">
 								<i class="fa fa-globe pdleft-3-4"></i>
 							</a>
-
-							<a href="port/portafolio-asg-tek.html" class="nk-portfolio-item-link">
+							<!--send to asg tek case study-->
+							<a href="<?php echo get_page_link(71); ?>" class="nk-portfolio-item-link">
 								<i class="fa fa-newspaper-o pdleft-4-4"></i>
 							</a>
 							
@@ -275,8 +275,8 @@ get_header();
 								<i class="fa fa-instagram pdleft-2-3"></i>
 							</a>
 								
-								
-							<a href="port/portafolio-yeiyari.html" class="nk-portfolio-item-link">
+								<!-- yeiyari case study page -->
+							<a href="<?php echo get_page_link(74); ?>" class="nk-portfolio-item-link">
 								<i class="fa fa-newspaper-o pdleft-3-3"></i>
 							</a>
 							
