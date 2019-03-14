@@ -8,52 +8,42 @@
  */
 
 ?>
+ 	<div class="col-sm-12">
+                                
+		<h4 class="p-title mt-30"></h4>
+		
+		<!--image thumbnail-->
+		<?php if ( has_post_thumbnail() ) { // check for feature image ?>
+        <a class="post-thumb mb10" href="<?php the_permalink(); ?>">
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+			<img src="<?php the_post_thumbnail_url();?>" alt="anana-post thumbnail" class="img-fluid mb30">
+
+        </a>
+        <?php } ?>	
+		
+		<!--titulo de blog post-->
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h4 class="pt-20"><a href="' . esc_url( get_permalink() ) . '"><b>', '</b></a></h4>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h4 class="pt-20"><a href="' . esc_url( get_permalink() ) . '"><b>', '</b></a></h4>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				anana_mkt_posted_on();
-				anana_mkt_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+		<!-- .entry-meta -->
+			<ul class="list-li-mr-20 pt-10 ">
+			<li class="color-lite-black">por <a href="#" class="color-black"><b><?php anana_mkt_posted_by(); ?></b></a>
+				<?php anana_mkt_posted_on(); ?></li>
+			</ul>
+
 		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php anana_mkt_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content( sprintf(
-			wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'anana-mkt' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			get_the_title()
-		) );
-
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'anana-mkt' ),
-			'after'  => '</div>',
-		) );
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php anana_mkt_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+		<!-- .entry-meta -->
+		
+		<p class="text-dark">
+		<?php the_excerpt('new_excerpt_more'); ?>
+		</p>
+		
+		<a href="<?php the_permalink(); ?>" class="animated_link">Leer más</a>
+		
+	</div><!-- col-sm-6 -->
