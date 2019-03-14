@@ -25,7 +25,6 @@ get_header();
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Nh_9AVGcPO8" allowfullscreen></iframe>
                 </div>
 
-
             </div>
 
 
