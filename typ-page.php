@@ -1,4 +1,7 @@
 <?php
+/*
+Template Name: Typ
+*/
 /**
  * The template for displaying all pages
  *
@@ -15,26 +18,52 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<main id="general_page">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+        <div class="container_styled_1">
 
-			get_template_part( 'template-parts/content', 'page' );
+            <div class="container margin_60_35">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+                <div class="row">
 
-		endwhile; // End of the loop.
-		?>
+                    <div class="col-lg-12">
+                        
+                        <h1 class="text-dark text-center">Gracias por contactarnos</h1><br>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section id="">
+
+            <div class="container margin_60">
+                <div class="row">
+                    <div class="col mb40">
+                        <div class="media">
+                            <div class="media-body centered text-center">
+                                <h1 class='text-uppercase'>¡Felicidades!</h1>
+                                <p>Haz dado el primer paso para evolucionar tu negocio. Muy pronto nos pondremos en contacto contigo, pero si no puedes esperar no dudes en contactarnos al +52 (444) 195 1052 o bien visítanos en Arrollo canta la piedra, 111a Lomas del Tecnológico, San Luis Potosí. 
+                                
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End row -->
+
+            </div>
+            <!-- End container -->
+
+        </section>
+
+    </main>
 
 <?php
-get_sidebar();
+
 get_footer();
