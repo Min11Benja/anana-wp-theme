@@ -40,7 +40,7 @@
                     <div class="col-md-12 col-lg-8">
 
 						<div class="row">
-
+						
 						<?php
 						if ( have_posts() ) :
 

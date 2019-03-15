@@ -6,32 +6,56 @@
  *
  * @package anana-mkt
  */
-
-get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<?php 
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+ get_header('blog');
 
-			get_template_part( 'template-parts/content', get_post_type() );
+?>
 
-			the_post_navigation();
+<main id="blog-cat-page">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+        <div class="container_styled_1">
+            <div class="container margin_60_35">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="text-dark text-center">BLOG</h1><br>
+                    </div>
+                </div>
+                <!-- End row -->
+            </div>
+        </div>
 
-		endwhile; // End of the loop.
-		?>
+        <section>
+            <div class="container">
+                <div class="row">
+				<div class="col-md-12 col-lg-8">
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+				<?php
+					while ( have_posts() ) :
+						the_post();
+
+						get_template_part( 'template-parts/content-single', get_post_type() );
+
+					
+						// If comments are open or we have at least one comment, load up the comment template.
+						if ( comments_open() || get_comments_number() ) :
+							comments_template();
+						endif;
+
+					endwhile; // End of the loop.
+				?>
+
+				</div><!--.col-md-12 col-lg-8-->
+
+				<?php get_sidebar(); ?>
+				</div><!--.row-->
+
+			</div><!--.container-->	
+		</section><!--section-->
+</main><!--#blog-cat-page-->	
 
 <?php
-get_sidebar();
+
 get_footer();
