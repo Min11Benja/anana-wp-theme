@@ -7,11 +7,34 @@
  * @package anana-mkt
  */
 
-get_header();
-?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+?>
+<?php 
+
+get_header('blog');
+
+?>
+<main id="blog-cat-page">
+
+<div class="container_styled_1">
+	<div class="container margin_60_35">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="text-dark text-center">ARCHIVE</h1><br>
+			</div>
+		</div>
+		<!-- End row -->
+	</div>
+</div>
+
+<section>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-lg-8">
+
+				<div class="row">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -45,9 +68,16 @@ get_header();
 		endif;
 		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+<div class="d-none d-md-block d-lg-none col-md-3"></div>
+					
+					<?php get_sidebar(); ?>
+					
+				</div><!--.row-->
+			</div><!--.container-->
+
+		</section>
+	</main><!-- #main -->
 
 <?php
-get_sidebar();
+
 get_footer();
