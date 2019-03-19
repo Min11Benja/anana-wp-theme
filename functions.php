@@ -42,13 +42,25 @@ if ( ! function_exists( 'anana_mkt_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+		/* This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'primary', 'anana-mkt' ),
             'sub-menu' => esc_html__( 'sub-menu', 'anana-mkt' ),
            'footer' => esc_html__( 'footer', 'anana-mkt' )
             
-		) );
+		) );*/
+		
+		function register_my_menus() {
+			register_nav_menus(
+			  array(
+				'header-menu' => __( 'Header Menu' ),
+				  'mobile-menu' => __( 'Mobile Menu' ),
+				'footer-menu' => __( 'Footer Menu' )
+			  )
+			);
+		  }
+		  add_action( 'init', 'register_my_menus' );
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
