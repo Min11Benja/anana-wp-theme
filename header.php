@@ -107,12 +107,13 @@
                 <div class="col-9 hidden-md-down">
                     
                   <?php
-                    wp_nav_menu( array(
-                        'theme_location'    => 'primary',
-                        'container'         => 'nav',     
-                        'menu_class'        => 'menu-left',  
-                    ) );
-                    ?>
+                   wp_nav_menu( array(
+                    'theme_location'    => 'mobile-menu',
+                    'container'         => 'nav',   
+                    'container_class'   => 'hidden-md-up',
+                    'menu_class'        => 'cd-primary-nav',  
+                ) );
+                ?>
 
                 </div>
 
