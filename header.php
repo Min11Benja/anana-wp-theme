@@ -108,7 +108,7 @@
                     
                   <?php
                    wp_nav_menu( array(
-                    'theme_location'    => 'mobile-menu',
+                    'theme_location'    => 'header-menu',
                     'container'         => 'nav',   
                     'container_class'   => 'hidden-md-up',
                     'menu_class'        => 'cd-primary-nav',  
@@ -123,7 +123,7 @@
                     <!-- /menu button -->
                    <?php
                     wp_nav_menu( array(
-                        'theme_location'    => 'sub-menu',
+                        'theme_location'    => 'mobile-menu',
                         'container'         => 'nav',   
                         'container_class'   => 'hidden-md-up',
                         'menu_class'        => 'cd-primary-nav',  

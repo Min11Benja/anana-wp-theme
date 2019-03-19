@@ -110,13 +110,14 @@ Template Name: header-blog
 
                 <div class="col-9 hidden-md-down">
                     
-                  <?php
-                    wp_nav_menu( array(
-                        'theme_location'    => 'primary',
-                        'container'         => 'nav',     
-                        'menu_class'        => 'menu-left',  
-                    ) );
-                    ?>
+                <?php
+                   wp_nav_menu( array(
+                    'theme_location'    => 'header-menu',
+                    'container'         => 'nav',   
+                    'container_class'   => 'hidden-md-up',
+                    'menu_class'        => 'cd-primary-nav',  
+                ) );
+                ?>
 
                 </div>
 
@@ -124,9 +125,9 @@ Template Name: header-blog
                     <!-- /social -->
                     <a href="#0" class="cd-nav-trigger hidden-md-up">Menu<span class="cd-icon"></span></a>
                     <!-- /menu button -->
-                   <?php
+                    <?php
                     wp_nav_menu( array(
-                        'theme_location'    => 'sub-menu',
+                        'theme_location'    => 'mobile-menu',
                         'container'         => 'nav',   
                         'container_class'   => 'hidden-md-up',
                         'menu_class'        => 'cd-primary-nav',  
